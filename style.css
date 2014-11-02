@@ -1,0 +1,66 @@
+@charset "utf-8";
+*{padding:0;margin:0}
+body{color:#000;background:#fff;font:16px/24px "Trebuchet MS",Calibri,sans-serif}
+header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
+.left{float:left}
+.right{float:right}
+.clear{clear:both}
+button,.button{cursor:pointer}
+.animated{opacity:0;transition:1s all}
+.animated.scroll{opacity:1}
+
+section,footer,header{clear:both}
+main{width:960px;position:relative;margin:0 auto}
+
+#splash{position:fixed;z-index:10;left:0;right:0;top:0;bottom:0;background:rgba(0,0,0,.8) center center no-repeat;background-size:contain;display:none}
+
+.countdown{height:130px}
+.countdown:before{content:"до конца акции:";display:block;color:white;font-size:16px;text-align:center;text-transform:lowercase}
+.countdown span{display:inline-block;width:60px;line-height:60px;font-size:44px;font-weight:normal;color:white;border-right:1px solid #eef;text-align:center;position:relative;margin:0 3px;font-family:"FreeSet"}
+.countdown span:last-child{border:none;color:#00d2ff}
+.countdown span:after{color:snow;display:block;text-align:center;font-size:16px;background:none;bottom:-20px;line-height:16px;font-weight:normal;position:absolute;left:0;right:0;text-transform:lowercase}
+
+.slider{position:relative;margin:0 auto}
+.slider div{position:absolute;top:0;bottom:0;background:center center no-repeat;left:0;width:0;transition:0.6s all}
+.slider div.showed{width:100%;right:0;left:auto}
+
+#hided{background:none;display:none;height:auto}
+#hided main{text-align:center;height:auto;position:fixed;z-index:12;background:rgba(0,0,0,.8);left:0;right:0;top:16%;border-radius:10px}
+#hided form{display:block;margin:10px;color:white;border-radius:8px;padding:10px;border:1px solid #eee}
+
+nav{}
+
+header{}
+
+#autors{}
+
+.form{}
+#form1{}
+#form2{}
+
+#get{}
+
+.example{}
+#ex1{}
+#ex2{}
+#ex3{}
+
+#problems{}
+
+#priceTime{}
+
+#pay{}
+
+#comments{}
+
+#scheme{}
+
+footer{}
+
+
+
+
+
+
+
+
