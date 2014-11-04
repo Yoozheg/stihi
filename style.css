@@ -1,4 +1,9 @@
 @charset "utf-8";
+@font-face{font-family:"Open Sans Light";src:url("fonts/OpenSans-Light.ttf") format("truetype")}
+@font-face{font-family:"Kelson Sans Regular";src:url("fonts/kelson_sans_regular_ru.ttf") format("truetype")}
+@font-face{font-family:"Kelson Sans Bold";src:url("fonts/kelson_sans_bold_ru.ttf") format("truetype")}
+@font-face{font-family:"PF Agora Serif Pro";src:url("fonts/pfagoraserifpro-black.ttf") format("truetype")}
+@font-face{font-family:"PF Agora Slab Pro";src:url("fonts/PFAgoraSlabPro-Reg.ttf") format("truetype")}
 *{padding:0;margin:0}
 body{color:#000;background:#fff;font:16px/24px "Trebuchet MS",Calibri,sans-serif}
 header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
