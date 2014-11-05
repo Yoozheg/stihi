@@ -10,7 +10,7 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 .left{float:left}
 .right{float:right}
 .clear{clear:both}
-button,.button{cursor:pointer}
+button,.splash{cursor:pointer}
 .animated{opacity:0;transition:1s all}
 .animated.scroll{opacity:1}
 
@@ -61,11 +61,3 @@ header{}
 #scheme{}
 
 footer{}
-
-
-
-
-
-
-
-

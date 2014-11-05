@@ -12,7 +12,7 @@
   var forms   = $(['form']),
     countdown = $(['.countdown']),
     animated  = $(['.animated']),
-    splash    = $(['.button']),
+    splash    = $(['.splash']),
     numbers   = $('.numbers'),
     gallery   = $('.gallery'),
     slideShow = $('.slider');
