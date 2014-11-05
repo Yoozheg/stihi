@@ -128,7 +128,8 @@ form button{display:inline-block;font:normal 16px "Kelson Sans Regular";color:wh
 #priceTime .right{float:none;display:block;position:absolute;top:500px;bottom:0;right:20%;left:50%}
 
 
-#pay{}
+#pay{height:340px;background-color:white;background:url(img/cash.jpg)no-repeat bottom center}
+#pay h2{;font:30px "Open Sans Light";background:url(img/money.png)no-repeat center left;padding-left:115px;margin:85px 0 0 180px}
 
 #comments{}
 
