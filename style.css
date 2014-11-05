@@ -78,10 +78,27 @@ form button{display:inline-block;font:normal 16px "Kelson Sans Regular";color:wh
 #get div:nth-child(5){background-image:url('img/b4.jpg')}
 #get div:nth-child(6){background-image:url('img/b5.jpg')}
 
-.example{}
-#ex1{}
-#ex2{}
-#ex3{}
+.example{color:#2d2d2d;font:17px "Open Sans Light"}
+.example h3{font-size:25px;padding-bottom:15px}
+#ex1{position:relative;height:752px;background:white}
+#ex1 .left  {float:none;display:block;position:absolute;top:0;bottom:0;left:0;right:50%;background:url(img/fon3.jpg) right center no-repeat}
+#ex1 .right{float:none;display:block;position:absolute;top:0;bottom:0;right:0;left:50%;background:white}
+#ex1 h2{font:45px "Open Sans Light";text-transform:uppercase;margin-left:30px;margin-top:70px}
+#ex1 h2 span{font:60px "Kelson Sans Regular"}
+#ex1 h3{margin-left:30px;margin-top:40px}
+#ex1 p{margin-left:30px}
+
+#ex2{position:relative;height:643px;background:white}
+#ex2 .left  {float:none;display:block;position:absolute;top:0;bottom:0;left:25%;right:50%;background:white}
+#ex2 .right{float:none;display:block;position:absolute;top:0;bottom:0;right:0;left:50%;background:url(img/fon4.jpg) left center no-repeat}
+#ex2 h3{margin-top:100px}
+
+#ex3{position:relative;height:752px;background:white}
+#ex3 .left  {float:none;display:block;position:absolute;top:0;bottom:0;left:0;right:50%;background:url(img/fon5.jpg) right center no-repeat}
+#ex3 .right{float:none;display:block;position:absolute;top:0;bottom:0;right:0;left:50%;background:white}
+#ex3 h3{margin-left:30px;margin-top:115px}
+#ex3 h3{margin-left:30px;margin-top:115px}
+#ex3 p{margin-left:30px}
 
 #problems{}
 
