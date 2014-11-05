@@ -131,7 +131,15 @@ form button{display:inline-block;font:normal 16px "Kelson Sans Regular";color:wh
 #pay{height:340px;background-color:white;background:url(img/cash.jpg)no-repeat bottom center}
 #pay h2{;font:30px "Open Sans Light";background:url(img/money.png)no-repeat center left;padding-left:115px;margin:85px 0 0 180px}
 
-#comments{}
+#comments{height:695px;background:white;font:15px "Open Sans Light"}
+#comments h2{text-align:center;text-transform:uppercase;font:50px "Kelson Sans Bold";padding-top:20px;margin-bottom:540px}
+#comments .left  {float:none;display:block;position:absolute;top:160px;bottom:0;left:0;right:50%}
+#comments .right{float:none;display:block;position:absolute;top:160px;bottom:0;right:0;left:50%}
+#comments .left h3{background:url(img/p1.jpg)no-repeat top left}
+#comments .right h3{background:url(img/p2.jpg)no-repeat top left}
+#comments h3{height:156px;padding:20px 0 0 166px;font-size:17px}
+#comments h3 span{font-size:23px}
+#comments button{font:normal 20px "Kelson Sans Regular";color:white;text-transform:uppercase;background:#f09e0a;border:none;outline:none;padding:0 40px;box-shadow:0 4px 0 #c87b05;height:46px;display:block;margin:50px auto;cursor:pointer;}
 
 #scheme{}
 
