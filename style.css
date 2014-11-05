@@ -5,7 +5,7 @@
 @font-face{font-family:"PF Agora Serif Pro";src:url("fonts/pfagoraserifpro-black.ttf") format("truetype")}
 @font-face{font-family:"PF Agora Slab Pro";src:url("fonts/PFAgoraSlabPro-Reg.ttf") format("truetype")}
 *{padding:0;margin:0}
-body{color:#000;background:#fff;font:16px/24px "Trebuchet MS",Calibri,sans-serif}
+body{color:#000;background:#fff;font:16px/24px "Trebuchet MS",Calibri,sans-serif;padding-top:70px}
 header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 .left{float:left}
 .right{float:right}
@@ -21,7 +21,7 @@ main{width:960px;position:relative;margin:0 auto}
 
 .countdown{height:130px}
 .countdown:before{content:"до конца акции:";display:block;color:white;font-size:16px;text-align:center;text-transform:lowercase}
-.countdown span{display:inline-block;width:60px;line-height:60px;font-size:44px;font-weight:normal;color:white;border-right:1px solid #eef;text-align:center;position:relative;margin:0 3px;font-family:"FreeSet"}
+.countdown span{display:inline-block;width:60px;line-height:60px;font-size:44px;font-weight:normal;color:white;border-right:1px solid #eef;text-align:center;position:relative;margin:0 3px;font-family:"Open Sans Light"}
 .countdown span:last-child{border:none;color:#00d2ff}
 .countdown span:after{color:snow;display:block;text-align:center;font-size:16px;background:none;bottom:-20px;line-height:16px;font-weight:normal;position:absolute;left:0;right:0;text-transform:lowercase}
 
@@ -33,17 +33,50 @@ main{width:960px;position:relative;margin:0 auto}
 #hided main{text-align:center;height:auto;position:fixed;z-index:12;background:rgba(0,0,0,.8);left:0;right:0;top:16%;border-radius:10px}
 #hided form{display:block;margin:10px;color:white;border-radius:8px;padding:10px;border:1px solid #eee}
 
-nav{}
+nav{background:#1c1b19;text-align:center;position:fixed;left:0;width:100%;z-index:5;display:inline-block;top:0}
+nav a{display:inline-block;color:white;font:17px "Open Sans Light";text-decoration:none;padding-top:25px;margin-left:33px;height:45px}
+nav a:first-child{margin-left:0}
 
-header{}
+header{height:885px;background:url('img/fon1.jpg') center top no-repeat;position:relative}
+header main{position:relative}
+header p{font:bold 30px "Kelson Sans Bold";text-align:left;color:#2d2d2d;padding-top:30px}
+header main>button{font:bold 20px "Kelson Sans Bold";text-align:left;color:#2d2d2d;text-decoration:underline;border:none;outline:none;background:none;text-transform:uppercase}
+header h1{font:bold 55px "Kelson Sans Bold";text-align:left;color:white;margin-top:80px}
+header h1 span{background:#2d2d2d;text-transform:uppercase;padding:0 5px}
+form{text-align:center;width:100%;background:rgba(0,0,0,0.7);padding:40px 0;position:absolute;bottom:0}
+form h3{font:normal 25px "Kelson Sans Regular";color:white;text-transform:uppercase;padding-bottom:10px}
+form input{display:inline-block;width:320px;height:40px;border:none;background:white;color:black;font:normal normal 18px "Open Sans Light";padding:0 10px;margin:0 5px}
+form button{display:inline-block;font:normal 16px "Kelson Sans Regular";color:white;text-transform:uppercase;background:#f09e0a;border:none;outline:none;padding:0 40px;box-shadow:0 2px 0 #c87b05;height:38px;margin-left:15px}
 
-#autors{}
+#autors{background:white}
+#autors main{text-align:center}
+#autors h2{color:black;font:30px/32px "Open Sans Light";padding-top:75px;padding-bottom:40px}
+#autors div{display:inline-block;text-align:center;margin-top:30px;padding:0 20px}
+#autors h3{color:#1a1f25;font:65px "Open Sans Light"}
+#autors hr{background:#f09e0a;width:30px;height:6px;border:none;outline:none;margin:20px auto}
+#autors h4{color:black;font:18px "PF Agora Serif Pro"}
+#autors p{color:black;font:16px "Open Sans Light";margin-top:30px}
+#autors button{font:normal 20px "Kelson Sans Regular";color:white;text-transform:uppercase;background:#f09e0a;border:none;outline:none;padding:0 40px;box-shadow:0 4px 0 #c87b05;height:46px;display:block;margin:50px auto}
 
-.form{}
-#form1{}
-#form2{}
+.form{height:1045px;position:relative}
+.form main>h3{color:white;text-align:right;font:normal 60px/60px "Kelson Sans Regular";text-transform:uppercase;padding-top:256px}
+.form main>h4{color:white;text-align:right;font:normal 40px/40px "Kelson Sans Regular";text-transform:uppercase}
+.form main>h5{color:white;text-align:right;font:normal 30px/30px "Kelson Sans Regular";text-transform:uppercase}
+#form1{background:url('img/fon2.jpg') center top no-repeat}
+#form2{background:url('img/fon8.jpg') center top no-repeat}
 
-#get{}
+#get{background:white;padding:40px}
+#get h2{color:#2b2b2b;text-align:left;font:bold 75px "Kelson Sans Regular";text-transform:uppercase;padding:60px 0 30px 0}
+#get div{height:354px;margin:8px auto;width:944px;background-color:#f29f00;background-position:center left;background-repeat:no-repeat}
+#get h3{color:white;text-align:left;font:bold 130px "Kelson Sans Regular";display:inline-block;padding-top:100px;margin-left:565px}
+#get p{color:white;text-align:left;font:normal 18px "Kelson Sans Regular";display:inline-block;text-transform:uppercase;padding-left:10px}
+#get div:nth-child(odd){background-position:center right}
+#get div:nth-child(odd) h3{margin-left:35px}
+#get div:nth-child(2){background-image:url('img/b1.jpg')}
+#get div:nth-child(3){background-image:url('img/b2.jpg')}
+#get div:nth-child(4){background-image:url('img/b3.jpg')}
+#get div:nth-child(5){background-image:url('img/b4.jpg')}
+#get div:nth-child(6){background-image:url('img/b5.jpg')}
 
 .example{}
 #ex1{}
@@ -60,4 +93,7 @@ header{}
 
 #scheme{}
 
-footer{}
+footer{background:#1b1b1b}
+footer h2{color:white;font:bold 50px "Kelson Sans Regular";text-align:center;padding-top:70px;text-transform:uppercase}
+footer form{position:relative;background:none;padding-bottom:115px;padding-top:20px}
+footer h3{padding-bottom:30px}
