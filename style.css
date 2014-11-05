@@ -115,7 +115,18 @@ form button{display:inline-block;font:normal 16px "Kelson Sans Regular";color:wh
 #problems span.bache{font:normal 25px "Kelson Sans Regular";color:white;}
 
 
-#priceTime{}
+#priceTime{height:842px;background:url(img/fon7.jpg)no-repeat top center}
+#priceTime img{position:absolute;left:20px;top:30px}
+#priceTime div{text-align:center;z-index:12;width:580px;height:670px;background:url(img/romb.png)no-repeat center 80px;margin-left:190px;padding-top:180px}
+#priceTime h2{font:55px "PF Agora Slab Pro"; color:white;line-height:2px;padding-top:15px;padding-bottom:40px}
+#priceTime h2 span{font:75px "PF Agora Serif Pro";color:#00ccff}
+#priceTime h3{font:35px "PF Agora Slab Pro";color:white}
+#priceTime h3 span{font-size:55px;color:#00ccff}
+#priceTime article{font:20px "PF Agora Slab Pro";color:white;}
+#priceTime article span{font:50px "PF Agora Serif Pro";color:#00ccff;line-height:25px}
+#priceTime .left  {float:none;display:block;position:absolute;top:500px;bottom:0;left:20%;right:50%}
+#priceTime .right{float:none;display:block;position:absolute;top:500px;bottom:0;right:20%;left:50%}
+
 
 #pay{}
 
