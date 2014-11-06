@@ -141,7 +141,12 @@ form button{display:inline-block;font:normal 16px "Kelson Sans Regular";color:wh
 #comments h3 span{font-size:23px}
 #comments button{font:normal 20px "Kelson Sans Regular";color:white;text-transform:uppercase;background:#f09e0a;border:none;outline:none;padding:0 40px;box-shadow:0 4px 0 #c87b05;height:46px;display:block;margin:50px auto;cursor:pointer;}
 
-#scheme{}
+#scheme{position:relative;height:800px;}
+#scheme .left  {float:none;display:block;position:absolute;top:0;bottom:0;left:0;right:50%;background:url(img/pero.jpg) no-repeat bottom right}
+#scheme .right{float:none;display:block;position:absolute;top:0;bottom:0;right:15%;left:50%;background:url(img/shagi.png) no-repeat center left}
+#scheme h2{font:30px "Open Sans Light";margin:95px 0 45px 100px}
+#scheme p{margin-left:100px;font:15px "Open Sans Light";padding-bottom:85px}
+#scheme p:nth-child(odd){text-align:right;margin-right:110px}
 
 footer{background:#1b1b1b}
 footer h2{color:white;font:bold 50px "Kelson Sans Regular";text-align:center;padding-top:70px;text-transform:uppercase}
