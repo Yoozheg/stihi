@@ -29,16 +29,9 @@ main{width:960px;position:relative;margin:0 auto}
 .slider div{position:absolute;top:0;bottom:0;background:center center no-repeat;left:0;width:0;transition:0.6s all}
 .slider div.showed{width:100%;right:0;left:auto}
 
-.form{height:1045px;position:relative}
-.form main>h3{color:white;text-align:right;font:normal 60px/60px "Kelson Sans Regular";text-transform:uppercase;padding-top:256px}
-.form main>h4{color:white;text-align:right;font:normal 40px/40px "Kelson Sans Regular";text-transform:uppercase}
-.form main>h5{color:white;text-align:right;font:normal 30px/30px "Kelson Sans Regular";text-transform:uppercase}
-#form1{background:url('img/fon2.jpg') center top no-repeat}
-#form2{background:url('img/fon8.jpg') center top no-repeat}
-
 #hided{background:none;display:none;height:auto}
-#hided main{text-align:center;height:auto;position:fixed;z-index:12;background:rgba(0,0,0,.8);left:0;right:0;top:70%}
-#hided form{display:block;margin:10px;color:white;padding:50px 0}
+#hided main{text-align:center;height:auto;position:fixed;z-index:12;background:rgba(0,0,0,.8);left:0;right:0;top:16%;border-radius:10px}
+#hided form{display:block;margin:10px;color:white;border-radius:8px;padding:10px;border:1px solid #eee}
 
 nav{background:#1c1b19;text-align:center;position:fixed;left:0;width:100%;z-index:5;display:inline-block;top:0}
 nav a{display:inline-block;color:white;font:17px "Open Sans Light";text-decoration:none;padding-top:25px;margin-left:33px;height:45px}
@@ -64,6 +57,13 @@ form button{display:inline-block;font:normal 16px "Kelson Sans Regular";color:wh
 #autors h4{color:black;font:18px "PF Agora Serif Pro"}
 #autors p{color:black;font:16px "Open Sans Light";margin-top:30px}
 #autors button{font:normal 20px "Kelson Sans Regular";color:white;text-transform:uppercase;background:#f09e0a;border:none;outline:none;padding:0 40px;box-shadow:0 4px 0 #c87b05;height:46px;display:block;margin:50px auto}
+
+.form{height:1045px;position:relative}
+.form main>h3{color:white;text-align:right;font:normal 60px/60px "Kelson Sans Regular";text-transform:uppercase;padding-top:256px}
+.form main>h4{color:white;text-align:right;font:normal 40px/40px "Kelson Sans Regular";text-transform:uppercase}
+.form main>h5{color:white;text-align:right;font:normal 30px/30px "Kelson Sans Regular";text-transform:uppercase}
+#form1{background:url('img/fon2.jpg') center top no-repeat}
+#form2{background:url('img/fon8.jpg') center top no-repeat}
 
 #get{background:white;padding:40px}
 #get h2{color:#2b2b2b;text-align:left;font:bold 75px "Kelson Sans Regular";text-transform:uppercase;padding:60px 0 30px 0}
@@ -127,13 +127,14 @@ form button{display:inline-block;font:normal 16px "Kelson Sans Regular";color:wh
 #priceTime .left  {float:none;display:block;position:absolute;top:500px;bottom:0;left:20%;right:50%}
 #priceTime .right{float:none;display:block;position:absolute;top:500px;bottom:0;right:20%;left:50%}
 
+
 #pay{height:340px;background-color:white;background:url(img/cash.jpg)no-repeat bottom center}
 #pay h2{;font:30px "Open Sans Light";background:url(img/money.png)no-repeat center left;padding-left:115px;margin:85px 0 0 180px}
 
 #comments{height:695px;background:white;font:15px "Open Sans Light"}
 #comments h2{text-align:center;text-transform:uppercase;font:50px "Kelson Sans Bold";padding-top:20px;margin-bottom:540px}
-#comments .left  {float:none;display:block;position:absolute;top:160px;bottom:80px;left:0;right:50%}
-#comments .right{float:none;display:block;position:absolute;top:160px;bottom:80px;right:0;left:50%}
+#comments .left  {float:none;display:block;position:absolute;top:160px;bottom:0;left:0;right:50%}
+#comments .right{float:none;display:block;position:absolute;top:160px;bottom:0;right:0;left:50%}
 #comments .left h3{background:url(img/p1.jpg)no-repeat top left}
 #comments .right h3{background:url(img/p2.jpg)no-repeat top left}
 #comments h3{height:156px;padding:20px 0 0 166px;font-size:17px}
@@ -151,8 +152,3 @@ footer{background:#1b1b1b}
 footer h2{color:white;font:bold 50px "Kelson Sans Regular";text-align:center;padding-top:70px;text-transform:uppercase}
 footer form{position:relative;background:none;padding-bottom:115px;padding-top:20px}
 footer h3{padding-bottom:30px}
-
-#copyright{background:#444;color:#ddd;text-align:center;padding:12px 0;font:normal normal 14px/normal "Trebuchet MS";transition:.5s all}
-#copyright:hover{color:white;background:#333}
-#copyright a{color:lime;text-decoration:none;transition:.5s all}
-#copyright a:hover{color:yellow}
